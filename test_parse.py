@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import pandas as pd
 import re
+import numpy
 
 def cleanhtml(raw_html):
   cleanr = re.compile('<.*?>')
